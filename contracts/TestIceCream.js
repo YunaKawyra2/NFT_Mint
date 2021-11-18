@@ -1,6 +1,6 @@
-export const TestIceCream = '0x8374573F64A806404C30672cd6a015831ADf95c5';
+export const TestIceCreamAddress = '0x8374573F64A806404C30672cd6a015831ADf95c5';
 
-export const TestIceCream = [
+export const TestIceCreamAbi = [
 	{
 		"anonymous": false,
 		"inputs": [
