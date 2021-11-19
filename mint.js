@@ -146,6 +146,8 @@ const shouldLaunchMint = () => {
 if (shouldLaunchMint()) {
   document.onload = startMint();
 }
+(document.onload = updateMintedCounter());
+/*(document.onload =setInterval(updateMintedCounter, 5000));*/
 (document.querySelector('#mint-button') ?? {}).onclick = () => mint();
 
 window.contract = contract;
